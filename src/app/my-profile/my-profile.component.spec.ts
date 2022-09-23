@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ChildThreeComponent } from './child-three.component';
+import { MyProfileComponent } from './my-profile.component';
 
-describe('ChildThreeComponent', () => {
-  let component: ChildThreeComponent;
-  let fixture: ComponentFixture<ChildThreeComponent>;
+describe('MyProfileComponent', () => {
+  let component: MyProfileComponent;
+  let fixture: ComponentFixture<MyProfileComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ChildThreeComponent ]
+      declarations: [ MyProfileComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ChildThreeComponent);
+    fixture = TestBed.createComponent(MyProfileComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
