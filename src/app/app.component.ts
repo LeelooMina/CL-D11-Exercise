@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CL-D11-Exercise-1';
+  name: string = 'Crystal';
 }
